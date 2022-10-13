@@ -1,4 +1,4 @@
-name: CodeQL
+name: Build_Tests
 
 # Run on Pull Request to $branch only
 on:
