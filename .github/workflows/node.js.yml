@@ -3,6 +3,9 @@ name: CodeQL
 # Run on Pull Request to $branch only
 on:
   pull_request:
+    branches: [master]
+  push:
+    branches: [master]
 
 jobs:
   analyse:
